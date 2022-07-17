@@ -7,7 +7,7 @@ function Sugestao(props){
           <img src={props.img} />
           <div class="texto">
             <div class="nome">{props.userName}</div>
-            <div class="razao">{props.UserStatus}</div>
+            <div class="razao">{props.userStatus}</div>
           </div>
         </div>
 
@@ -38,11 +38,11 @@ function Sidebar(){
               <div>Ver tudo</div>
             </div>
 
-            <Sugestao img="assets/img/bad.vibes.memes.svg"  userName="bad.vibes.memes" UserStatus="Segue você"/>
-            <Sugestao img="assets/img/chibirdart.svg" userName="chibirdart" UserStatus="Segue você"/>
-            <Sugestao img="assets/img/razoesparaacreditar.svg" userName="razoesparaacreditar" UserStatus="Novo no Instagram"/>
-            <Sugestao img="assets/img/adorable_animals.svg"  userName="adorable_animals" UserStatus="Segue você"/>
-            <Sugestao img="assets/img/smallcutecats.svg" userName="smallcutecats" UserStatus="Segue você"/>
+            <Sugestao img="assets/img/bad.vibes.memes.svg"  userName="bad.vibes.memes" userStatus="Segue você"/>
+            <Sugestao img="assets/img/chibirdart.svg" userName="chibirdart" userStatus="Segue você"/>
+            <Sugestao img="assets/img/razoesparaacreditar.svg" userName="razoesparaacreditar" userStatus="Novo no Instagram"/>
+            <Sugestao img="assets/img/adorable_animals.svg"  userName="adorable_animals" userStatus="Segue você"/>
+            <Sugestao img="assets/img/smallcutecats.svg" userName="smallcutecats" userStatus="Segue você"/>
             
           </div>
 

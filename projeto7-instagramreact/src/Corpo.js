@@ -25,5 +25,4 @@ function Esquerda(){
 
 
 
-
 export default Corpo;
