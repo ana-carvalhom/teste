@@ -70,6 +70,7 @@
     margin: 0 5px;
   }
   
+
   .navbar .icones-mobile {
     display: none;
   }
@@ -194,7 +195,16 @@
   .post .fundo .acoes div:first-child ion-icon {
     margin-right: 6px;
   }
-  
+
+  .colorLike {
+   color: red;
+   visibility: visible;
+  }
+
+
+  .esconder {
+    display: none;
+  }
   .post .fundo .curtidas {
     display: flex;
     align-items: center;

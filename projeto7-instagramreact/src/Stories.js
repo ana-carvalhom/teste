@@ -43,10 +43,8 @@ function Stories(){
 
     return (
 
-        <div class="stories">
-            
-          {arrayStory}
-  
+        <div class="stories">        
+          {arrayStory}  
           
        <div class="setinha">
           <ion-icon name="chevron-forward-circle"></ion-icon>

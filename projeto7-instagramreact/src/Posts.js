@@ -1,5 +1,14 @@
+import React from "react";
+
+
+
+
 function PostUser(props){
 console.log(props);
+
+//Variável de estado
+const [colorLike, setLike] = React.useState("initial");
+
 
 return (
     <div class="post">
@@ -20,7 +29,10 @@ return (
               <div class="fundo">
                 <div class="acoes">
                   <div>
-                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon name="heart-outline" class={colorLike}
+          onClick={() => {
+            setLike("colorLike");
+          }}></ion-icon>
                     <ion-icon name="chatbubble-outline"></ion-icon>
                     <ion-icon name="paper-plane-outline"></ion-icon>
                   </div>
