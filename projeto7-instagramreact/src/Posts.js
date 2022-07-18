@@ -8,7 +8,7 @@ console.log(props);
 
 //Variável de estado
 const [colorLike, setLike] = React.useState("initial");
-
+const [nameIcon, setnameIcon] = React.useState("heart-outline");
 
 return (
     <div class="post">
@@ -29,8 +29,9 @@ return (
               <div class="fundo">
                 <div class="acoes">
                   <div>
-                  <ion-icon name="heart-outline" class={colorLike}
+                  <ion-icon name={nameIcon} class={colorLike}
           onClick={() => {
+            setnameIcon("heart");
             setLike("colorLike");
           }}></ion-icon>
                     <ion-icon name="chatbubble-outline"></ion-icon>

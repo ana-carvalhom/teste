@@ -201,6 +201,10 @@
    visibility: visible;
   }
 
+  .teste{
+    color: blue;
+    visibility: visible;
+  }
 
   .esconder {
     display: none;
