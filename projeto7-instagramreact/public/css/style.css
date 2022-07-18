@@ -201,9 +201,8 @@
    visibility: visible;
   }
 
-  .teste{
-    color: blue;
-    visibility: visible;
+  .initial{
+   visibility: visible;
   }
 
   .esconder {
