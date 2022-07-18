@@ -29,7 +29,7 @@ return (
               <div class="fundo">
                 <div class="acoes">
                   <div>
-                    <ion-icon name="heart-outline" class={colorLike}
+                  <ion-icon name="heart-outline" class={colorLike}
           onClick={() => {
             setLike("colorLike");
           }}></ion-icon>
