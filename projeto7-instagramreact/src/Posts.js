@@ -76,7 +76,7 @@ function Posts(){
     {
         urlUser:'assets/img/meowed.svg', 
         userTitle: 'barked', 
-        urlPost:'assets/img/adorable_animals.svg', 
+        urlPost:'assets/img/dog.svg', 
         mainLike:'adorable_animals', 
         otherLikes:'outras 99.159 pessoas'
     }               

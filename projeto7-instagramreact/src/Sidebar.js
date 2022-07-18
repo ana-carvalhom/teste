@@ -17,11 +17,73 @@ function Sugestao(props){
 }
 
 
-
-
-
-//Sidebar component
 function Sidebar(){
+    const sugestao = [
+            <Sugestao 
+            img="assets/img/bad.vibes.memes.svg"  
+            userName="bad.vibes.memes" 
+            userStatus="Segue você"
+            />,
+            <Sugestao 
+            img="assets/img/chibirdart.svg" 
+            userName="chibirdart" 
+            userStatus="Segue você"
+            />,
+            <Sugestao 
+            img="assets/img/razoesparaacreditar.svg" 
+            userName="razoesparaacreditar" 
+            userStatus="Novo no Instagram"
+            />,
+            <Sugestao 
+            img="assets/img/adorable_animals.svg"  
+            serName="adorable_animals" 
+            userStatus="Segue você"
+            />,
+            <Sugestao 
+            img="assets/img/smallcutecats.svg" 
+            userName="smallcutecats" 
+            userStatus="Segue você"
+            />,
+    ]
+
+    const newItem = [
+        {
+        img:"assets/img/bad.vibes.memes.svg",  
+        userName:"bad.vibes.memes", 
+        userStatus:"Segue você"
+    },
+    {
+        img:"assets/img/chibirdart.svg", 
+        userName:"chibirdart", 
+        userStatus:"Segue você"
+    },
+    {
+        img:"assets/img/razoesparaacreditar.svg", 
+        userName:"razoesparaacreditar", 
+        userStatus:"Novo no Instagram"
+    },
+    {
+        img:"assets/img/adorable_animals.svg",  
+        userName:"adorable_animals", 
+        userStatus:"Segue você"
+    },
+    {
+        img:"assets/img/smallcutecats.svg", 
+        userName:"smallcutecats", 
+        userStatus:"Segue você"
+    }
+
+
+    ]
+
+    const arraySugestoes = newItem.map((item) => {
+        return  (<Sugestao 
+        img={item.img}
+        userName={item.userName} 
+        userStatus={item.userStatus}
+        />);
+    })
+
     return (
         <div class="sidebar">
           <div class="usuario">
@@ -37,12 +99,7 @@ function Sidebar(){
               Sugestões para você
               <div>Ver tudo</div>
             </div>
-
-            <Sugestao img="assets/img/bad.vibes.memes.svg"  userName="bad.vibes.memes" userStatus="Segue você"/>
-            <Sugestao img="assets/img/chibirdart.svg" userName="chibirdart" userStatus="Segue você"/>
-            <Sugestao img="assets/img/razoesparaacreditar.svg" userName="razoesparaacreditar" userStatus="Novo no Instagram"/>
-            <Sugestao img="assets/img/adorable_animals.svg"  userName="adorable_animals" userStatus="Segue você"/>
-            <Sugestao img="assets/img/smallcutecats.svg" userName="smallcutecats" userStatus="Segue você"/>
+        {arraySugestoes}
             
           </div>
 
